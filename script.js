@@ -15,4 +15,4 @@ if (anni <= 18) {
     prezzo = prezzo * 0.6;
 }
 
-console.log(prezzo.toFixed(2));
+console.log("costo finale biglietto è:" + " " + prezzo.toFixed(2));
