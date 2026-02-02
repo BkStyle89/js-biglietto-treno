@@ -9,10 +9,10 @@ const anni = parseFloat(prompt("quanti anni hai?"))
 
 let prezzo = km * 0.21;
 
-if (anni < 18) {
-
-} else if (anni > 65) {
-
+if (anni <= 18) {
+    prezzo = prezzo * 0.8;
+} else if (anni >= 65) {
+    prezzo = prezzo * 0.6;
 }
 
-console.log();
+console.log(km);
