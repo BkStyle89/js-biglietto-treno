@@ -11,10 +11,8 @@ let prezzo = km * 0.21;
 
 if (anni <= 18) {
     prezzo = prezzo * 0.8;
-    result =
 } else if (anni >= 65) {
     prezzo = prezzo * 0.6;
-    result =
 }
 
-console.log(result);
+console.log(prezzo.toFixed(2));
