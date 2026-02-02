@@ -14,3 +14,5 @@ if (anni < 18) {
 } else if (anni > 65) {
 
 }
+
+console.log();
